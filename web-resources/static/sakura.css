@@ -1,20 +1,20 @@
+/* Анимация падения лепестков */
 @keyframes fall {
     0% {
         opacity: 0.9;
         top: 0;
     }
-
     100% {
         opacity: 0.2;
         top: 100%;
     }
 }
 
+/* Анимации движения влево */
 @keyframes blow-soft-left {
     0% {
         margin-left: 0;
     }
-
     100% {
         margin-left: -50%;
     }
@@ -24,17 +24,16 @@
     0% {
         margin-left: 0;
     }
-
     100% {
         margin-left: -100%;
     }
 }
 
+/* Анимации движения вправо */
 @keyframes blow-soft-right {
     0% {
         margin-left: 0;
     }
-
     100% {
         margin-left: 50%;
     }
@@ -44,21 +43,19 @@
     0% {
         margin-left: 0;
     }
-
     100% {
         margin-left: 100%;
     }
 }
 
+/* Анимации качания лепестков */
 @keyframes sway-0 {
     0% {
         transform: rotate(-5deg);
     }
-
     40% {
         transform: rotate(28deg);
     }
-
     100% {
         transform: rotate(3deg);
     }
@@ -68,11 +65,9 @@
     0% {
         transform: rotate(10deg);
     }
-
     40% {
         transform: rotate(43deg);
     }
-
     100% {
         transform: rotate(15deg);
     }
@@ -82,11 +77,9 @@
     0% {
         transform: rotate(15deg);
     }
-
     40% {
         transform: rotate(56deg);
     }
-
     100% {
         transform: rotate(22deg);
     }
@@ -96,11 +89,9 @@
     0% {
         transform: rotate(25deg);
     }
-
     40% {
         transform: rotate(74deg);
     }
-
     100% {
         transform: rotate(37deg);
     }
@@ -110,11 +101,9 @@
     0% {
         transform: rotate(40deg);
     }
-
     40% {
         transform: rotate(68deg);
     }
-
     100% {
         transform: rotate(25deg);
     }
@@ -124,11 +113,9 @@
     0% {
         transform: rotate(50deg);
     }
-
     40% {
         transform: rotate(78deg);
     }
-
     100% {
         transform: rotate(40deg);
     }
@@ -138,11 +125,9 @@
     0% {
         transform: rotate(65deg);
     }
-
     40% {
         transform: rotate(92deg);
     }
-
     100% {
         transform: rotate(58deg);
     }
@@ -152,11 +137,9 @@
     0% {
         transform: rotate(72deg);
     }
-
     40% {
         transform: rotate(118deg);
     }
-
     100% {
         transform: rotate(68deg);
     }
@@ -166,17 +149,21 @@
     0% {
         transform: rotate(94deg);
     }
-
     40% {
         transform: rotate(136deg);
     }
-
     100% {
         transform: rotate(82deg);
     }
 }
 
+/* Стили для лепестков */
 .sakura {
     pointer-events: none;
     position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(135deg, #D32F2F 0%, rgba(255,255,255,0) 100%); /* Градиент: красный к прозрачному белому */
+    border-radius: 50% 15%; /* Форма лепестка */
+    z-index: 1; /* Над фоном, но под интерфейсом */
 }
