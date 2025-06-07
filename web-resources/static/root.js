@@ -202,7 +202,7 @@ function show_2fa() {
         $(".code-input").attr("type", "password"),
         $(".enter").hasClass("tgcode") && $(".enter").removeClass("tgcode"),
         $(".code-caption").html(
-            "Enter your Telegram 2FA password, then press <span style='color: #dc137b;'>Enter</span>",
+            "Enter your Telegram 2FA password, then press <span style='color: #D32F2F;'>Enter</span>", // Изменено с #dc137b на #D32F2F (красный)
         ),
         cnt_btn.setAttribute("current-step", "2fa"),
         $("#monkey").hide(),
