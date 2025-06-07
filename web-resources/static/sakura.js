@@ -19,10 +19,10 @@ const Sakura = function(t, e) {
                 minSize: 10,
                 delay: 300,
                 colors: [{
-                    gradientColorStart: "rgba(255, 183, 197, 0.9)",
-                    gradientColorEnd: "rgba(255, 197, 208, 0.9)",
-                    gradientColorDegree: 120,
-                }, ],
+                    gradientColorStart: "#D32F2F", // Красный из палитры
+                    gradientColorEnd: "rgba(255,255,255,0)", // Прозрачный белый
+                    gradientColorDegree: 135, // Синхронизация с sakura.css
+                }],
             }),
             (n = e),
             Object.keys(i).forEach((t) => {
