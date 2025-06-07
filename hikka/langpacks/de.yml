@@ -1,4 +1,4 @@
-heroku_security:
+shadow_security:
   invalid_name: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Ungültiger Name</b>"
   no_command: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Befehl</b> <code>{}</code> <b>nicht gefunden!</b>"
   permissions: "🔐 <b>Hier können die Berechtigungen für den Befehl</b> <code>{}{}</code> <b>konfiguriert werden</b>"
@@ -89,7 +89,7 @@ heroku_security:
   _cmd_doc_sgroupadd: "<Name> [Benutzer oder Antwort] - Benutzer zur Sicherheitsgruppe hinzufügen"
   _cmd_doc_sgroupdel: "<Name> [Benutzer oder Antwort] - Benutzer aus der Sicherheitsgruppe entfernen"
 
-heroku_settings:
+shadow_settings:
   watchers: "<emoji document_id=5424885441100782420>👀</emoji> <b>Wächter:</b>\n\n<b>{}</b>"
   mod404: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Wächter {} nicht gefunden</b>"
   disabled: "<emoji document_id=5424885441100782420>👀</emoji> <b>Wächter {} ist jetzt <u>deaktiviert</u></b>"
@@ -99,7 +99,7 @@ heroku_settings:
   no_cmd: "<emoji document_id=5469791106591890404>🪄</emoji> <b>Gib den Befehl an, für den NoNick aktiviert oder deaktiviert werden soll</b>"
   cmd_nn: "<emoji document_id=5469791106591890404>🪄</emoji> <b>NoNick-Status für</b> <code>{}</code><b>: {}</b>"
   cmd404: "<emoji document_id=5469791106591890404>🪄</emoji> <b>Befehl nicht gefunden</b>"
-  inline_settings: "⚙️ <b>Hier kannst du die Heroku-Einstellungen verwalten</b>"
+  inline_settings: "⚙️ <b>Hier kannst du die Shadow-Einstellungen verwalten</b>"
   confirm_update: "🧭 <b>Bestätige das Update. Der Userbot wird neu gestartet</b>"
   confirm_restart: "🔄 <b>Bestätige den Neustart</b>"
   suggest_fs: "✅ Module speichern vorschlagen"
@@ -114,31 +114,31 @@ heroku_settings:
   suggest_subscribe: "✅ Abonnement für den Kanal vorschlagen"
   do_not_suggest_subscribe: "🚫 Abonnement für den Kanal nicht vorschlagen"
   private_not_allowed: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Dieser Befehl muss im Chat ausgeführt werden</b>"
-  _cls_doc: "Zusätzliche Heroku-Einstellungen"
-  nonick_warning: "Achtung! Du hast NoNick mit dem Standardpräfix aktiviert! Du könntest in Heroku-Chats gemutet werden. Ändere das Präfix oder deaktiviere globales NoNick!"
+  _cls_doc: "Zusätzliche Shadow-Einstellungen"
+  nonick_warning: "Achtung! Du hast NoNick mit dem Standardpräfix aktiviert! Du könntest in Shadow-Chats gemutet werden. Ändere das Präfix oder deaktiviere globales NoNick!"
   reply_required: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Antworte auf eine Nachricht des Benutzers, für den NoNick aktiviert werden soll</b>"
-  deauth_confirm: "⚠️ <b>Diese Aktion entfernt Heroku vollständig von diesem Konto! Dies kann nicht rückgängig gemacht werden</b>\n\n<i>- Alle mit Heroku verbundenen Chats werden gelöscht\n- Die Heroku-Sitzung wird zurückgesetzt\n- Der Inline-Bot von Heroku wird entfernt</i>"
-  deauth_confirm_step2: "⚠️ <b>Bist du sicher, dass du Heroku entfernen möchtest?</b>"
+  deauth_confirm: "⚠️ <b>Diese Aktion entfernt Shadow vollständig von diesem Konto! Dies kann nicht rückgängig gemacht werden</b>\n\n<i>- Alle mit Shadow verbundenen Chats werden gelöscht\n- Die Shadow-Sitzung wird zurückgesetzt\n- Der Inline-Bot von Shadow wird entfernt</i>"
+  deauth_confirm_step2: "⚠️ <b>Bist du sicher, dass du Shadow entfernen möchtest?</b>"
   deauth_yes: "Ich bin sicher"
   deauth_no_1: "Ich bin unsicher"
   deauth_no_2: "Nicht wirklich"
   deauth_no_3: "Nein"
   deauth_cancel: "🚫 Abbrechen"
   deauth_confirm_btn: "😢 Entfernen"
-  uninstall: "😢 <b>Heroku wird entfernt...</b>"
-  uninstalled: "😢 <b>Heroku wurde entfernt. Die Web-Oberfläche ist weiterhin aktiv, und andere Konten können hinzugefügt werden!</b>"
+  uninstall: "😢 <b>Shadow wird entfernt...</b>"
+  uninstalled: "😢 <b>Shadow wurde entfernt. Die Web-Oberfläche ist weiterhin aktiv, und andere Konten können hinzugefügt werden!</b>"
   cmd_nn_list: "<emoji document_id=5469791106591890404>🪄</emoji> <b>NoNick ist für folgende Befehle aktiviert:</b>\n\n{}"
   user_nn_list: "<emoji document_id=5469791106591890404>🪄</emoji> <b>NoNick ist für folgende Benutzer aktiviert:</b>\n\n{}"
   chat_nn_list: "<emoji document_id=5469791106591890404>🪄</emoji> <b>NoNick ist für folgende Chats aktiviert:</b>\n\n{}"
   nothing: "<emoji document_id=5427052514094619126>🤷‍♀️</emoji> <b>Nichts zu zeigen...</b>"
-  privacy_leak: "⚠️ <b>Dieser Befehl gewährt Zugriff auf die Heroku-Weboberfläche. Die Ausführung in öffentlichen Chats stellt ein Sicherheitsrisiko dar. Es wird empfohlen, dies in den <a href='tg://openmessage?user_id={}'>Gespeicherten Nachrichten</a> auszuführen. Führe</b> <code>{}proxypass force_insecure</code> <b>aus, um diese Warnung zu deaktivieren</b>"
-  privacy_leak_nowarn: "⚠️ <b>Dieser Befehl gewährt Zugriff auf die Heroku-Weboberfläche. Die Ausführung in öffentlichen Chats stellt ein Sicherheitsrisiko dar. Es wird empfohlen, dies in den <a href='tg://openmessage?user_id={}'>Gespeicherten Nachrichten</a> auszuführen.</b>"
-  opening_tunnel: "🔁 <b>Öffne Tunnel zur Heroku-Weboberfläche...</b>"
+  privacy_leak: "⚠️ <b>Dieser Befehl gewährt Zugriff auf die Shadow-Weboberfläche. Die Ausführung in öffentlichen Chats stellt ein Sicherheitsrisiko dar. Es wird empfohlen, dies in den <a href='tg://openmessage?user_id={}'>Gespeicherten Nachrichten</a> auszuführen. Führe</b> <code>{}proxypass force_insecure</code> <b>aus, um diese Warnung zu deaktivieren</b>"
+  privacy_leak_nowarn: "⚠️ <b>Dieser Befehl gewährt Zugriff auf die Shadow-Weboberfläche. Die Ausführung in öffentlichen Chats stellt ein Sicherheitsrisiko dar. Es wird empfohlen, dies in den <a href='tg://openmessage?user_id={}'>Gespeicherten Nachrichten</a> auszuführen.</b>"
+  opening_tunnel: "🔁 <b>Öffne Tunnel zur Shadow-Weboberfläche...</b>"
   tunnel_opened: "🎉 <b>Der Tunnel ist geöffnet. Dieser Link bleibt maximal eine Stunde aktiv</b>"
   web_btn: "🌍 Web-Oberfläche"
   btn_yes: "🚸 Trotzdem öffnen"
   btn_no: "🔻 Schließen"
-  lavhost_web: "✌️ <b>Über diesen Link gelangst du zur Heroku-Weboberfläche auf lavHost</b>\n\n<i>💡 Du musst dich mit den bei der lavHost-Einrichtung angegebenen Daten anmelden</i>"
+  lavhost_web: "✌️ <b>Über diesen Link gelangst du zur Shadow-Weboberfläche auf lavHost</b>\n\n<i>💡 Du musst dich mit den bei der lavHost-Einrichtung angegebenen Daten anmelden</i>"
   disable_debugger: "✅ Debugger aktiviert"
   enable_debugger: "🚫 Debugger deaktiviert"
   _cmd_doc_nonickchat: "Aktiviere NoNick für einen bestimmten Chat"
@@ -179,7 +179,7 @@ terminal:
   _cmd_doc_terminal: "<Befehl> - Führen Sie einen Befehl im System aus"
   _cmd_doc_terminate: "[-f zum Erzwingen] - Antworten Sie auf eine Nachricht, um den Prozess zu beenden"
 
-heroku_backup:
+shadow_backup:
   period: "⌚️ <b>Einheit „ALPHA“</b> erstellt regelmäßige Sicherungen. Diese Einstellungen können später geändert werden.\n\nBitte wählen Sie die Häufigkeit der Sicherungen"
   saved: "✅ Häufigkeit gespeichert! Sie kann mit .set_backup_period geändert werden"
   never: "✅ Ich werde keine automatischen Sicherungen durchführen. Dies kann mit .set_backup_period rückgängig gemacht werden"
@@ -217,7 +217,7 @@ presets:
 
 settings:
   installation: '<emoji document_id=5363805650327450240>▪️</emoji> Die Installation ist wirklich einfach! Schreibe einfach folgendes in das Terminal deines Servers:
-  <pre><code class="language-bash">sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install python3-pip && git clone https://github.com/coddrago/Heroku && cd Heroku && pip install -r requirements.txt && python3 -m hikka</code></pre>
+  <pre><code class="language-bash">sudo apt update && sudo apt upgrade -y && sudo apt install git && sudo apt install python3-pip && git clone https://github.com/Viciu3/Shadow && cd Shadow && pip install -r requirements.txt && python3 -m hikka</code></pre>
   
   <emoji document_id=5299027123913105700>😐</emoji> Wenn du keinen Zugriff auf sudo hast, kannst du einfach die Anfangsbefehle weglassen.
   
@@ -229,8 +229,8 @@ settings:
   
   <emoji document_id=5471895949804575096>🤲</emoji> Wenn du jedoch von Hikka von hikariatama wechseln möchtest, solltest du dieses Modul herunterladen:
   
-  <pre><code class="language-hikka">{prefix}dlm https://raw.githubusercontent.com/coddrago/modules/main/SwitchToHeroku.py</code></pre>
-  Es ist völlig sicher und hilft dir, von Hikka zu Heroku zu wechseln.'
+  <pre><code class="language-hikka">{prefix}dlm https://raw.githubusercontent.com/Viciu3/modules/main/SwitchToShadow.py</code></pre>
+  Es ist völlig sicher und hilft dir, von Hikka zu Shadow zu wechseln.'
   too_many_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Zu viele Argumente</b>"
   blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} wurde zur Blacklist des Userbots hinzugefügt</b>"
   unblacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} wurde aus der Blacklist des Userbots entfernt</b>"
@@ -248,7 +248,7 @@ settings:
   alias_removed: "<emoji document_id=5197474765387864959>👍</emoji> <b>Alias</b> <code>{}</code> <b>wurde entfernt</b>."
   no_alias: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Alias</b> <code>{}</code> <b>existiert nicht</b>"
   db_cleared: "<emoji document_id=5197474765387864959>👍</emoji> <b>Datenbank wurde gelöscht</b>"
-  hikka: "{} <b>{}.{}.{}</b> <i>{}</i>\n\n<b><emoji document_id=5289608677244811430>📁</emoji> <b>Telethon:</b> <i>1.37.0</i>\n\n<emoji document_id=5228879218363872764>⌨</emoji> <b>Developer: t.me/codrago</b>\n<emoji document_id=5375368793209972850>🖋</emoji> <b>Designer: t.me/tr4mq</b>"
+  hikka: "{} <b>{}.{}.{}</b> <i>{}</i>\n\n<b><emoji document_id=5289608677244811430>📁</emoji> <b>Telethon:</b> <i>1.37.0</i>\n\n<emoji document_id=5228879218363872764>⌨</emoji> <b>Developer: t.me/familiarrrrrr</b>\n<emoji document_id=5375368793209972850>🖋</emoji> <b>Designer: t.me/shop_bannerr>"
   _cls_doc: "Verwaltung der grundlegenden Einstellungen des Userbots"
   confirm_cleardb: "⚠️ <b>Bist du sicher, dass du die Datenbank zurücksetzen möchtest?</b>"
   cleardb_confirm: "🗑 Datenbank löschen"
@@ -266,7 +266,7 @@ settings:
   _cmd_doc_unblacklist: "[Chat] - Aktiviert den Bot an einem bestimmten Ort"
   _cmd_doc_unblacklistuser: "[Benutzer] - Erlaubt einem Benutzer, Befehle auszuführen"
 
-heroku_config:
+shadow_config:
   choose_core: "⚙️ <b>Wähle eine Kategorie</b>"
   configure: "⚙️ <b>Wähle ein Modul zur Konfiguration</b>"
   configure_lib: "📦 <b>Wähle eine Bibliothek zur Konfiguration</b>"
