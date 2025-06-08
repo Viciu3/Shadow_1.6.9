@@ -307,7 +307,7 @@ inline_stuff:
   bot_username_invalid: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Ungültiger Bot-Benutzername. Er muss auf</b> <code>bot</code> <b>enden und mindestens 5 Zeichen lang sein</b>"
   bot_username_occupied: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Dieser Bot-Benutzername ist bereits vergeben</b>"
   bot_updated: "<emoji document_id=6318792204118656433>🎉</emoji> <b>Einstellungen gespeichert. Um sie anzuwenden, starte den Userbot neu</b>"
-  this_is_hikka: "🪐 <b>Hallo! Das ist Heroku — ein leistungsstarker modularer Telegram-Userbot. Du kannst ihn auf deinem Account installieren!</b>\n\n<b>🌍 <a href=\"https://github.com/coddrago/Heroku\">GitHub</a></b>\n<b>👥 <a href=\"https://t.me/heroku_talks\">Support-Chat</a></b>"
+  this_is_hikka: "👻 <b>Hallo! Das ist Shadow — ein leistungsstarker modularer Telegram-Userbot. Du kannst ihn auf deinem Account installieren!</b>\n\n<b>🌍 <a href=\"https://github.com/Viciu3/Shadow\">GitHub</a></b>\n<b>👥 <a href=\"https://t.me/shadow_mod777\">Support-Chat</a></b>"
   _cmd_doc_ch_hikka_bot: "<Benutzername> - Ändert den Benutzernamen des Inline-Bots"
 
 test:
@@ -316,7 +316,7 @@ test:
   configping: "Ihr benutzerdefinierter Text. Platzhalter können verwendet werden: {ping} - Ihr Ping, {uptime} - Ihre Uptime, {ping_hint} - Hinweis. Sie können den Platzhaltername {hostname} verwenden, wenn Sie den Hostname Ihres Servers benötigen"
   hint: "Geben Sie einen Hinweis an"
   ping_emoji: "Emoji, das bei einer leichten Ping-Erhöhung angezeigt wird."
-  logs_caption: "<emoji document_id=5188377234380954537>🪐</emoji> <b>Heroku-Logs des Levels</b> <code>{}</code>\n\n<emoji document_id=6318902906900711458>⚪️</emoji> <b>Version: {}.{}.{}</b>{}"
+  logs_caption: "<emoji document_id=5188377234380954537>🪐</emoji> <b>Shadow-Logs des Levels</b> <code>{}</code>\n\n<emoji document_id=6318902906900711458>⚪️</emoji> <b>Version: {}.{}.{}</b>{}"
   debugging_enabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Der Entwicklermodus wurde für das Modul</b> <code>{0}</code> <b>aktiviert</b>\n<i>Gehe zum Ordner `debug_modules`, ändere die Datei `{0}.py` und beobachte die Änderungen in Echtzeit</i>"
   debugging_disabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Der Entwicklermodus wurde deaktiviert</b>"
   suspend_invalid_time: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Ungültige Zeitdauer für das Einfrieren</b>"
@@ -335,13 +335,13 @@ test:
   _cmd_doc_clearlogs: "Löscht die Logs"
 
 update_notifier:
-  update_required: "🆕 <b>Ein Heroku-Update ist verfügbar!</b>\n\nEine neue Version von Heroku wurde veröffentlicht.\n🔮 <b>Heroku <s>{}</s> -> {}</b>\n\n{}"
+  update_required: "🆕 <b>Ein Shadow-Update ist verfügbar!</b>\n\nEine neue Version von Heroku wurde veröffentlicht.\n🔮 <b>Shadow <s>{}</s> -> {}</b>\n\n{}"
   more: "\n<i><b>🎥 Und noch {}...</b></i>"
   _cfg_doc_disable_notifications: "Update-Benachrichtigungen deaktivieren"
   latest_disabled: "Benachrichtigungen über das neueste Update wurden deaktiviert"
   update: "🔄 Aktualisieren"
   ignore: "🚫 Ignorieren"
-  changelog: '<emoji document_id=5434144690511290129>📰</emoji> <b>Änderungsprotokoll des letzten großen Updates:</b><pre><code class="language-heroku">{}</code></pre>'
+  changelog: '<emoji document_id=5434144690511290129>📰</emoji> <b>Änderungsprotokoll des letzten großen Updates:</b><pre><code class="language-shadow">{}</code></pre>'
   
 updater:
   source: "<emoji document_id=5456255401194429832>📖</emoji> <b>Den Quellcode kannst du <a href='{}'>hier</a> einsehen</b>"
@@ -356,7 +356,7 @@ updater:
   btn_update: "🧭 Aktualisieren"
   restart_confirm: "❓ <b>Bist du sicher, dass du neu starten möchtest?</b>"
   secure_boot_confirm: "❓ <b>Bist du sicher, dass du den sicheren Startmodus aktivieren möchtest?</b>"
-  update_confirm: "❓ <b>Bist du sicher, dass du aktualisieren möchtest?\n\n<a href=\"https://github.com/coddrago/Heroku/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/coddrago/Heroku/commit/{}\">{}</a></b>"
+  update_confirm: "❓ <b>Bist du sicher, dass du aktualisieren möchtest?\n\n<a href=\"https://github.com/Viciu3/Shadow/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/coddrago/Heroku/commit/{}\">{}</a></b>"
   no_update: "🚸 <b>Du hast bereits die neueste Version. Möchtest du trotzdem ein Update erzwingen?</b>"
   cancel: "🚫 Abbrechen"
   _cls_doc: "Aktualisiert den Userbot"
@@ -392,17 +392,17 @@ help:
   all_header: "<b>{} Module verfügbar, {} verborgen:</b>"
   no_mod: "🚫 <b>Gib das Modul(-e) an, das(-e) versteckt werden soll(en)</b>"
   hidden_shown: "<b>{} Module verborgen, {} Module angezeigt:</b>\n{}\n{}"
-  support: "{} <b>Link zum</b> <a href='https://t.me/heroku_talks'>Hilfe-Chat</a></b>"
+  support: "{} <b>Link zum</b> <a href='https://t.me/shadow_mod777'>Hilfe-Chat</a></b>"
   _cls_doc: "Zeigt Hilfe zu Modulen an"
   partial_load: "<emoji document_id=5355133243773435190>☝️</emoji> <b>Der Userbot ist noch nicht vollständig geladen, daher werden nicht alle Module angezeigt</b>"
   not_exact: "<emoji document_id=5355133243773435190>☝️</emoji> <b>Es wurde keine exakte Übereinstimmung gefunden, daher wurde die passendste Auswahl getroffen</b>"
-  request_join: "Du hast nach einem Link zum Hilfe-Chat von Heroku gefragt"
+  request_join: "Du hast nach einem Link zum Hilfe-Chat von Shadow gefragt"
   core_notice: "<emoji document_id=5355133243773435190>☝️</emoji> <b>Dies ist ein eingebautes Modul. Du kannst es nicht entladen oder ersetzen</b>"
   _cmd_doc_help: "[Modul] [-f] - Zeigt Hilfe an"
   _cmd_doc_helphide: "<Modul oder Module> - Versteckt das Modul(-e) aus der Hilfe\n*Trenne die Module mit Leerzeichen"
   _cmd_doc_support: "Zeigt den Link zum Hikka Hilfe-Chat"
 
-heroku_info:
+shadow_info:
   owner: "Besitzer"
   version: "Version"
   build: "Build"
@@ -422,7 +422,7 @@ heroku_info:
   setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>Du musst den Text für benutzerdefiniertes Info angeben</b>"
   setinfo_success: "<emoji document_id=5436040291507247633>🎉</emoji> <b>Der Info-Text wurde erfolgreich geändert</b>"
   desc: "Userbots können verwendet werden, um verschiedene Aufgaben zu automatisieren, wie <b>Nachrichten senden, Kanälen beitreten, Mediendateien hochladen und vieles mehr</b>.\n\n<emoji document_id=5474667187258006816>😎</emoji> Userbots unterscheiden sich von normalen Telegram-Bots, da <b>sie auf dem Benutzerkonto</b> und nicht auf einem Bot-Konto arbeiten. Das bedeutet, dass sie auf mehr Funktionen zugreifen können und eine größere Flexibilität bei der Ausführung von Aktionen bieten.\n\n<emoji document_id=5472267631979405211>🚫</emoji> Es ist jedoch wichtig zu beachten, dass <b>Userbots offiziell von Telegram nicht unterstützt werden</b> und ihre Nutzung gegen die Nutzungsbedingungen der Plattform verstoßen kann. Daher <b>sollten Benutzer vorsichtig sein</b> und sicherstellen, dass auf ihrem Konto kein schadhafter Code ausgeführt wird.\n\n"
-  _cmd_doc_hikkainfo: "Sende Informationen im Stil von 'Was ist Heroku?'"
+  _cmd_doc_hikkainfo: "Sende Informationen im Stil von 'Was ist Shadow?'"
   _cmd_doc_info: "Sendet Informationen über den Bot"
   _cmd_doc_setinfo: "<Text> - Ändere den Text in .info"
 
@@ -541,7 +541,7 @@ translate:
   _cmd_doc_tr: "[Sprache] [Text] - Übersetzt den Text"
 
 quickstart:
-  base: "🪐🇩🇪 <b>Hallo.</b> Dein Userbot <b>Heroku</b> ist installiert.\n\n❓ <b>Brauchst du Hilfe?</b> Trete unserem Support-Chat bei. Wir helfen <b>jedem</b>.\n\n📼 <b>Du kannst nach Modulen suchen und sie mit </b><code>.heta</code><b> installieren. Gib einfach deine Suchanfrage ein und klicke auf ⛩ Install bei dem gewünschten Modul</b>\n\n📣 <b>Schau dir Kanäle mit von der Community erstellten Modulen an: <a href=\"https://t.me/hikka_ub/126\">zeigen</a></b>\n\n💁‍♀️ <b>Kurzanleitung:</b>\n\n1️⃣ <b>Schreib</b> <code>.help</code> <b>um eine Liste der Module zu sehen</b>\n2️⃣ <b>Schreib</b> <code>.help [Modulname/Befehl]</code> <b>um die Modulbeschreibung zu sehen</b>\n3️⃣ <b>Schreib</b> <code>.dlmod [Link]</code> <b>um ein Modul von einem Link zu laden</b>\n4️⃣ <b>Schreib</b> <code>.loadmod</code> <b>als Antwort auf eine Datei, um ein Modul aus der Datei zu laden</b>\n5️⃣ <b>Schreib</b> <code>.unloadmod [Modulname]</code>"
+  base: "🪐🇩🇪 <b>Hallo.</b> Dein Userbot <b>Shadow</b> ist installiert.\n\n❓ <b>Brauchst du Hilfe?</b> Trete unserem Support-Chat bei. Wir helfen <b>jedem</b>.\n\n📼 <b>Du kannst nach Modulen suchen und sie mit </b><code>.heta</code><b> installieren. Gib einfach deine Suchanfrage ein und klicke auf ⛩ Install bei dem gewünschten Modul</b>\n\n📣 <b>Schau dir Kanäle mit von der Community erstellten Modulen an: <a href=\"https://t.me/hikka_ub/126\">zeigen</a></b>\n\n💁‍♀️ <b>Kurzanleitung:</b>\n\n1️⃣ <b>Schreib</b> <code>.help</code> <b>um eine Liste der Module zu sehen</b>\n2️⃣ <b>Schreib</b> <code>.help [Modulname/Befehl]</code> <b>um die Modulbeschreibung zu sehen</b>\n3️⃣ <b>Schreib</b> <code>.dlmod [Link]</code> <b>um ein Modul von einem Link zu laden</b>\n4️⃣ <b>Schreib</b> <code>.loadmod</code> <b>als Antwort auf eine Datei, um ein Modul aus der Datei zu laden</b>\n5️⃣ <b>Schreib</b> <code>.unloadmod [Modulname]</code>"
   railway: "🚂 <b>Dein Userbot ist auf Railway installiert</b>. Auf dieser Plattform erhältst du nur <b>500 kostenlose Stunden pro Monat</b>. Wenn das Limit erreicht ist, wird dein <b>Userbot eingefroren</b>. Im nächsten Monat <b>musst du zu https://railway.app gehen und ihn neu starten</b>."
   lavhost: "✌️ <b>Dein Userbot ist auf lavHost installiert</b>. Trete @lavhost bei, um wichtige Benachrichtigungen und Updates zu erhalten. Alle Fragen zur Plattform sollten in @lavhostchat gestellt werden."
   language_saved: "🇩🇪 Sprache gespeichert!"
@@ -597,7 +597,7 @@ $inline:
   inline_cmds: "ℹ️ Sie haben {} verfügbaren Befehl(-e)"
   inline_cmds_msg: "<b>ℹ️ Verfügbare Inline-Befehle:</b>\n\n{}"
   run_command: "🏌️ Befehl ausführen"
-  command_msg: "<b>🪐 Befehl „{}“</b>\n\n<i>{}</i>"
-  command: "🪐 Befehl „{}“"
+  command_msg: "<b>👻 Befehl „{}“</b>\n\n<i>{}</i>"
+  command: "👻 Befehl „{}“"
   button403: "Sie können diesen Button nicht drücken!"
   keep_id: "⚠️ Löschen Sie die ID nicht! {}"
