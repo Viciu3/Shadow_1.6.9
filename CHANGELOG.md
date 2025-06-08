@@ -1,4 +1,11 @@
-# Heroku Changelog
+# Shadow Changelog
+## 👻 Shadow 1.7.0
+
+- update all system files "Heroku" to the "Shadow"
+- update of all system photos such as banner, tunnel, web interface, info, unit, chat, bot.
+- update all web interface design files
+- updating the remaining files.
+
 ## 🪐 Heroku 1.6.8
 
 - Finally renamed to Heroku and new Emoji
