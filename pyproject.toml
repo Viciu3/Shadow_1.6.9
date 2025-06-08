@@ -4,9 +4,9 @@ preview = true
 
 [tool.poetry]
 name = "hikka"
-version = "1.6.7"
+version = "1.7.0"
 description = "Telegram userbot focused on developer convenience"
-authors = ["codrago, t.me/codrago"]
+authors = ["Shadow, t.me/familiarrrrrr"]
 license = "GNU AGPLv3"
 readme = "README.md"
 
