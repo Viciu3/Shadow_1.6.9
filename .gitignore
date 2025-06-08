@@ -166,8 +166,8 @@ config.json
 *.mp3
 *.avi
 
-# Heroku-specific rules
-.heroku/
+# Shadow-specific rules
+.shadow/
 .apt/
 .profile.d/
 vendor/
