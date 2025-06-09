@@ -295,12 +295,12 @@ class TelegramLogsHandler(logging.Handler):
         return [
             (
                 {
-                    "text": "🐞 Web debugger",
+                    "text": "⭐ Web debugger",
                     "url": url,
                 }
                 if self.web_debugger
                 else {
-                    "text": "🪲 Start debugger",
+                    "text": "🌟 Start debugger",
                     "callback": self._start_debugger,
                     "args": (item,),
                 }
@@ -366,7 +366,7 @@ class TelegramLogsHandler(logging.Handler):
                         reply_markup=self._mods[client_id].inline.generate_markup(
                             [
                                 {
-                                    "text": "🪐 Full traceback",
+                                    "text": "👻 Full traceback",
                                     "callback": self._show_full_trace,
                                     "args": (
                                         self._mods[client_id].inline.bot,
@@ -399,7 +399,7 @@ class TelegramLogsHandler(logging.Handler):
                     logfile = io.BytesIO(
                         "".join(self._queue[client_id]).encode("utf-8")
                     )
-                    logfile.name = "heroku-logs.txt"
+                    logfile.name = "shadow-logs.txt"
                     logfile.seek(0)
                     await self._mods[client_id].inline.bot.send_document(
                         self._mods[client_id].logchat,
@@ -507,7 +507,7 @@ _tg_formatter = logging.Formatter(
 )
 
 rotating_handler = RotatingFileHandler(
-    filename="heroku.log",
+    filename="shadow.log",
     mode="a",
     maxBytes=10 * 1024 * 1024,
     backupCount=1,
