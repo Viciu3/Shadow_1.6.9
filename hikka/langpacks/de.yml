@@ -356,7 +356,7 @@ updater:
   btn_update: "🧭 Aktualisieren"
   restart_confirm: "❓ <b>Bist du sicher, dass du neu starten möchtest?</b>"
   secure_boot_confirm: "❓ <b>Bist du sicher, dass du den sicheren Startmodus aktivieren möchtest?</b>"
-  update_confirm: "❓ <b>Bist du sicher, dass du aktualisieren möchtest?\n\n<a href=\"https://github.com/Viciu3/Shadow/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/coddrago/Heroku/commit/{}\">{}</a></b>"
+  update_confirm: "❓ <b>Bist du sicher, dass du aktualisieren möchtest?\n\n<a href=\"https://github.com/Viciu3/Shadow/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/Viciu3/Shadow/commit/{}\">{}</a></b>"
   no_update: "🚸 <b>Du hast bereits die neueste Version. Möchtest du trotzdem ein Update erzwingen?</b>"
   cancel: "🚫 Abbrechen"
   _cls_doc: "Aktualisiert den Userbot"
