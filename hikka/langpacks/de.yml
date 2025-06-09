@@ -229,7 +229,7 @@ settings:
   
   <emoji document_id=5471895949804575096>🤲</emoji> Wenn du jedoch von Hikka von hikariatama wechseln möchtest, solltest du dieses Modul herunterladen:
   
-  <pre><code class="language-hikka">{prefix}dlm https://raw.githubusercontent.com/Viciu3/modules/main/SwitchToShadow.py</code></pre>
+  <pre><code class="language-hikka">{prefix}dlm https://raw.githubusercontent.com/Viciu3/shadow_mod/main/SwitchToShadow.py</code></pre>
   Es ist völlig sicher und hilft dir, von Hikka zu Shadow zu wechseln.'
   too_many_args: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Zu viele Argumente</b>"
   blacklisted: "<emoji document_id=5197474765387864959>👍</emoji> <b>Chat {} wurde zur Blacklist des Userbots hinzugefügt</b>"
