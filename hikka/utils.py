@@ -712,7 +712,7 @@ async def invite_inline_bot(
                 channel=peer,
                 user_id=client.loader.inline.bot_username,
                 admin_rights=ChatAdminRights(ban_users=True),
-                rank="Heroku",
+                rank="Shadow",
             )
         )
 
@@ -756,7 +756,7 @@ async def asset_channel(
 
     # legacy heroku / hikka chats conversion to heroku
     if title.startswith("hikka-"):
-        title = title.replace("hikka-", "heroku-")
+        title = title.replace("hikka-", "shadow-")
 
     async for d in client.iter_dialogs():
         if d.title == title:
